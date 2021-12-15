@@ -1,0 +1,87 @@
+#include <iostream>
+using namespace std;
+
+class Stocks
+double methodComp(double cost)
+{
+double firstStock;
+double secondStock;
+double thirdStock;
+double fourthStock;
+double fifthStock;
+}
+const string wordList[23] = { "TSLA", "FB", "APPL", "CCL", "SBUX", 
+"AMZN", "T", "BRKB", "MAR", "SONY", "BBBY", "LULU", "BA", "HD", "LOGI", "DIS",
+"AI", "DKNG", "WFC", "PGNY", "HTZZ", "PENN", "ABNB" };
+
+    if(cost == 10)
+    {
+        firstStock = 1 + (rand() % 23);
+        secondStock = 1 + (rand() % 23);
+        thirdStock = 1 + (rand() % 23);
+
+    string firstName1 = wordList[rand() % 30];
+    string secondName1 = wordList[rand() % ];
+    string thirdName1 = wordList[rand() % 4];
+
+        cout<< firstStock << " " << firstName2 << endl;
+        cout<< secondStock << " " << secondName2 << endl;
+        cout<< thirdStock << " " << thirdName2 << endl;
+        return 0;
+    }
+
+   else if (cost == 25)
+    {
+        firstStock = 1 + (rand() % 23);
+        secondStock = 1 + (rand() % 23);
+        thirdStock = 1 + (rand() % 23);
+        fourthStock = 1 + (rand() % 23);
+
+    string firstName2 = wordList[rand() % 23];
+    string secondName2 = wordList[rand() % 23];
+    string thirdName2 = wordList[rand() % 23];
+    string fourthName2 = wordList[rand() % 23];
+
+        cout<< firstStock << " " << firstName2 << endl;
+        cout<< secondStock << " " << secondName2<< endl;
+        cout<< thirdStock << " " << thirdName2 << endl;
+        cout<< fourthStock << " " << fourthName2 << endl;
+        return 0;
+    }
+
+    else if (cost == 50)
+    {
+        firstStock = 1 + (rand() % 23);
+        secondStock = 1 + (rand() % 23);
+        thirdStock = 1 + (rand() % 23);
+        fourthStock = 1 + (rand() % 23);
+        fifthStock = 1 + (rand() % 23);
+
+    string firstName3 = wordList[rand() % 23];
+    string secondName3 = wordList[rand() % 23];
+    string thirdName3 = wordList[rand() % 23];
+    string fourthName3 = wordList[rand() % 23];
+    string fifthName3 = wordList[rand() % 23];
+
+        cout<< firstStock << " " << firstName3 << endl;
+        cout<< secondStock << " " <<  secondName3 << endl;
+        cout<< thirdStock << " " << thirdName3 << endl;
+        cout<< fourthStock << " " << fourthName3 << endl;
+        cout<< fifthStock << " " << fifthName3 << endl;
+        return 0;
+    }
+
+    else 
+    {
+        cout << "Not a valid purchase value" << endl;
+        return 0;
+    }
+
+int main()
+{
+    double shares;
+    cout << "How much was the cost of your card: ?";
+    cin >> shares;
+    methodComp(shares);
+}
+
